@@ -1,0 +1,1150 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-NotesApp_CapstoneAutomation" class="navigator-link">
+              <span class="suite-name border-failed">NotesApp-CapstoneAutomation</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-NotesApp_CapstoneAutomation" class="navigator-link ">
+                    <span>D:\Demo project Selenium\notes-automation-v3-fixed\notes-fixed\src\test\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-NotesApp_CapstoneAutomation" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-NotesApp_CapstoneAutomation" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-NotesApp_CapstoneAutomation" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-NotesApp_CapstoneAutomation" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-NotesApp_CapstoneAutomation" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-NotesApp_CapstoneAutomation" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods, 3 failed,  6 skipped,  9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-NotesApp_CapstoneAutomation" class="hide-methods failed suite-NotesApp_CapstoneAutomation"> (hide)</a> <!-- hide-methods failed suite-NotesApp_CapstoneAutomation -->
+                      <a href="#" panel-name="suite-NotesApp_CapstoneAutomation" class="show-methods failed suite-NotesApp_CapstoneAutomation"> (show)</a> <!-- show-methods failed suite-NotesApp_CapstoneAutomation -->
+                    </span>
+                    <div class="method-list-content failed suite-NotesApp_CapstoneAutomation">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NotesApp_CapstoneAutomation" title="com.notes.tests.ui.CreateNoteTest" class="method navigator-link" hash-for-method="createNoteAppearsInList">createNoteAppearsInList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NotesApp_CapstoneAutomation" title="com.notes.tests.ui.CreateNoteTest" class="method navigator-link" hash-for-method="createNoteInEachCategory">createNoteInEachCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NotesApp_CapstoneAutomation" title="com.notes.tests.e2e.UiApiConsistencyTest" class="method navigator-link" hash-for-method="tc01_uiCreatedNoteMatchesApiResponse">tc01_uiCreatedNoteMatchesApiResponse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-NotesApp_CapstoneAutomation -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-NotesApp_CapstoneAutomation" class="hide-methods skipped suite-NotesApp_CapstoneAutomation"> (hide)</a> <!-- hide-methods skipped suite-NotesApp_CapstoneAutomation -->
+                      <a href="#" panel-name="suite-NotesApp_CapstoneAutomation" class="show-methods skipped suite-NotesApp_CapstoneAutomation"> (show)</a> <!-- show-methods skipped suite-NotesApp_CapstoneAutomation -->
+                    </span>
+                    <div class="method-list-content skipped suite-NotesApp_CapstoneAutomation">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-NotesApp_CapstoneAutomation" title="com.notes.tests.ui.CreateNoteTest" class="method navigator-link" hash-for-method="createNoteAppearsInList">createNoteAppearsInList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-NotesApp_CapstoneAutomation" title="com.notes.tests.ui.CreateNoteTest" class="method navigator-link" hash-for-method="createNoteAppearsInList">createNoteAppearsInList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-NotesApp_CapstoneAutomation" title="com.notes.tests.ui.CreateNoteTest" class="method navigator-link" hash-for-method="createNoteInEachCategory">createNoteInEachCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-NotesApp_CapstoneAutomation" title="com.notes.tests.ui.CreateNoteTest" class="method navigator-link" hash-for-method="createNoteInEachCategory">createNoteInEachCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-NotesApp_CapstoneAutomation" title="com.notes.tests.e2e.UiApiConsistencyTest" class="method navigator-link" hash-for-method="tc01_uiCreatedNoteMatchesApiResponse">tc01_uiCreatedNoteMatchesApiResponse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-NotesApp_CapstoneAutomation" title="com.notes.tests.e2e.UiApiConsistencyTest" class="method navigator-link" hash-for-method="tc01_uiCreatedNoteMatchesApiResponse">tc01_uiCreatedNoteMatchesApiResponse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-NotesApp_CapstoneAutomation -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-NotesApp_CapstoneAutomation" class="hide-methods passed suite-NotesApp_CapstoneAutomation"> (hide)</a> <!-- hide-methods passed suite-NotesApp_CapstoneAutomation -->
+                      <a href="#" panel-name="suite-NotesApp_CapstoneAutomation" class="show-methods passed suite-NotesApp_CapstoneAutomation"> (show)</a> <!-- show-methods passed suite-NotesApp_CapstoneAutomation -->
+                    </span>
+                    <div class="method-list-content passed suite-NotesApp_CapstoneAutomation">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NotesApp_CapstoneAutomation" title="com.notes.tests.api.NotesApiTest" class="method navigator-link" hash-for-method="createNoteViaApiReturns200">createNoteViaApiReturns200</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NotesApp_CapstoneAutomation" title="com.notes.tests.api.NotesApiTest" class="method navigator-link" hash-for-method="deleteNonExistentNoteReturns404">deleteNonExistentNoteReturns404</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NotesApp_CapstoneAutomation" title="com.notes.tests.api.NotesApiTest" class="method navigator-link" hash-for-method="deleteNoteViaApiReturns200">deleteNoteViaApiReturns200</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NotesApp_CapstoneAutomation" title="com.notes.tests.e2e.DeletedNoteDisappearsTest" class="method navigator-link" hash-for-method="deletedNoteDisappearsFromUI">deletedNoteDisappearsFromUI</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NotesApp_CapstoneAutomation" title="com.notes.tests.ui.LoginTest" class="method navigator-link" hash-for-method="emptyFormShowsValidationError">emptyFormShowsValidationError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NotesApp_CapstoneAutomation" title="com.notes.tests.api.NotesApiTest" class="method navigator-link" hash-for-method="getNotesReturns200WithinThreshold">getNotesReturns200WithinThreshold</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NotesApp_CapstoneAutomation" title="com.notes.tests.api.NotesApiTest" class="method navigator-link" hash-for-method="getNotesWithoutTokenReturns401">getNotesWithoutTokenReturns401</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NotesApp_CapstoneAutomation" title="com.notes.tests.ui.LoginTest" class="method navigator-link" hash-for-method="invalidCredentialsShowError">invalidCredentialsShowError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NotesApp_CapstoneAutomation" title="com.notes.tests.ui.LoginTest" class="method navigator-link" hash-for-method="validLoginNavigatesToDashboard">validLoginNavigatesToDashboard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-NotesApp_CapstoneAutomation -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-NotesApp_CapstoneAutomation" class="panel NotesApp_CapstoneAutomation">
+          <div class="suite-NotesApp_CapstoneAutomation-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.notes.tests.e2e.UiApiConsistencyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc01_uiCreatedNoteMatchesApiResponse">
+                  </a> <!-- tc01_uiCreatedNoteMatchesApiResponse -->
+                  <span class="method-name">tc01_uiCreatedNoteMatchesApiResponse</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: a[href=&apos;/notes/app/notes/add&apos;], button[data-testid=&apos;add-note-button&apos;], a[data-testid=&apos;add-note-button&apos;] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.18&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45163}, goog:processID: 27532, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:45163/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2200a2509886a278eb9db4d82d273eb7
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.notes.base.BasePage.find(BasePage.java:49)
+	at com.notes.base.BasePage.jsClick(BasePage.java:73)
+	at com.notes.pages.NotesPage.clickAddNote(NotesPage.java:65)
+	at com.notes.tests.e2e.UiApiConsistencyTest.lambda$1(UiApiConsistencyTest.java:80)
+	at io.qameta.allure.Allure.lambda$step$0(Allure.java:113)
+	at io.qameta.allure.Allure.lambda$step$1(Allure.java:127)
+	at io.qameta.allure.Allure.step(Allure.java:181)
+	at io.qameta.allure.Allure.step(Allure.java:125)
+	at io.qameta.allure.Allure.step(Allure.java:112)
+	at com.notes.tests.e2e.UiApiConsistencyTest.tc01_uiCreatedNoteMatchesApiResponse(UiApiConsistencyTest.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+</div> <!-- stack-trace -->
+                  <em>
+(TC-01: UI-created note matches API response (Category, Title, Description))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NotesApp_CapstoneAutomation-class-failed -->
+          <div class="suite-NotesApp_CapstoneAutomation-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.notes.tests.ui.CreateNoteTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNoteAppearsInList">
+                  </a> <!-- createNoteAppearsInList -->
+                  <span class="method-name">createNoteAppearsInList</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: a[href=&apos;/notes/app/notes/add&apos;], button[data-testid=&apos;add-note-button&apos;], a[data-testid=&apos;add-note-button&apos;] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.18&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55759}, goog:processID: 19652, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55759/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a4f6eb2e82d553046d13d6dc6d96c22
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.notes.base.BasePage.find(BasePage.java:49)
+	at com.notes.base.BasePage.jsClick(BasePage.java:73)
+	at com.notes.pages.NotesPage.clickAddNote(NotesPage.java:65)
+	at com.notes.tests.ui.CreateNoteTest.createNoteAppearsInList(CreateNoteTest.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+</div> <!-- stack-trace -->
+                  <em>
+(TC-UI-02: Create a note via UI and verify it appears in the list)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNoteInEachCategory">
+                  </a> <!-- createNoteInEachCategory -->
+                  <span class="method-name">createNoteInEachCategory</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: a[href=&apos;/notes/app/notes/add&apos;], button[data-testid=&apos;add-note-button&apos;], a[data-testid=&apos;add-note-button&apos;] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.18&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:27236}, goog:processID: 14656, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:27236/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d20cfbbb009c9189a8f083303112eaf
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.notes.base.BasePage.find(BasePage.java:49)
+	at com.notes.base.BasePage.jsClick(BasePage.java:73)
+	at com.notes.pages.NotesPage.clickAddNote(NotesPage.java:65)
+	at com.notes.tests.ui.CreateNoteTest.createNoteInEachCategory(CreateNoteTest.java:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+</div> <!-- stack-trace -->
+                  <em>
+(TC-UI-03: Create notes in all three categories)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NotesApp_CapstoneAutomation-class-failed -->
+          <div class="suite-NotesApp_CapstoneAutomation-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.notes.tests.e2e.UiApiConsistencyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc01_uiCreatedNoteMatchesApiResponse">
+                  </a> <!-- tc01_uiCreatedNoteMatchesApiResponse -->
+                  <span class="method-name">tc01_uiCreatedNoteMatchesApiResponse</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: a[href=&apos;/notes/app/notes/add&apos;], button[data-testid=&apos;add-note-button&apos;], a[data-testid=&apos;add-note-button&apos;] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.18&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:7239}, goog:processID: 20444, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:7239/devtool..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 03f402532f1f52868902a9299b9ed8ca
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.notes.base.BasePage.find(BasePage.java:49)
+	at com.notes.base.BasePage.jsClick(BasePage.java:73)
+	at com.notes.pages.NotesPage.clickAddNote(NotesPage.java:65)
+	at com.notes.tests.e2e.UiApiConsistencyTest.lambda$1(UiApiConsistencyTest.java:80)
+	at io.qameta.allure.Allure.lambda$step$0(Allure.java:113)
+	at io.qameta.allure.Allure.lambda$step$1(Allure.java:127)
+	at io.qameta.allure.Allure.step(Allure.java:181)
+	at io.qameta.allure.Allure.step(Allure.java:125)
+	at io.qameta.allure.Allure.step(Allure.java:112)
+	at com.notes.tests.e2e.UiApiConsistencyTest.tc01_uiCreatedNoteMatchesApiResponse(UiApiConsistencyTest.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+</div> <!-- stack-trace -->
+                  <em>
+(TC-01: UI-created note matches API response (Category, Title, Description))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc01_uiCreatedNoteMatchesApiResponse">
+                  </a> <!-- tc01_uiCreatedNoteMatchesApiResponse -->
+                  <span class="method-name">tc01_uiCreatedNoteMatchesApiResponse</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: a[href=&apos;/notes/app/notes/add&apos;], button[data-testid=&apos;add-note-button&apos;], a[data-testid=&apos;add-note-button&apos;] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.18&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35352}, goog:processID: 22436, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:35352/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8ff2fe50df81ea152f07d985a93e7aea
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.notes.base.BasePage.find(BasePage.java:49)
+	at com.notes.base.BasePage.jsClick(BasePage.java:73)
+	at com.notes.pages.NotesPage.clickAddNote(NotesPage.java:65)
+	at com.notes.tests.e2e.UiApiConsistencyTest.lambda$1(UiApiConsistencyTest.java:80)
+	at io.qameta.allure.Allure.lambda$step$0(Allure.java:113)
+	at io.qameta.allure.Allure.lambda$step$1(Allure.java:127)
+	at io.qameta.allure.Allure.step(Allure.java:181)
+	at io.qameta.allure.Allure.step(Allure.java:125)
+	at io.qameta.allure.Allure.step(Allure.java:112)
+	at com.notes.tests.e2e.UiApiConsistencyTest.tc01_uiCreatedNoteMatchesApiResponse(UiApiConsistencyTest.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+</div> <!-- stack-trace -->
+                  <em>
+(TC-01: UI-created note matches API response (Category, Title, Description))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NotesApp_CapstoneAutomation-class-skipped -->
+          <div class="suite-NotesApp_CapstoneAutomation-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.notes.tests.ui.CreateNoteTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNoteAppearsInList">
+                  </a> <!-- createNoteAppearsInList -->
+                  <span class="method-name">createNoteAppearsInList</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: a[href=&apos;/notes/app/notes/add&apos;], button[data-testid=&apos;add-note-button&apos;], a[data-testid=&apos;add-note-button&apos;] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.18&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61472}, goog:processID: 5060, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61472/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 239ca72f11546106d1511e28fb4ea994
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.notes.base.BasePage.find(BasePage.java:49)
+	at com.notes.base.BasePage.jsClick(BasePage.java:73)
+	at com.notes.pages.NotesPage.clickAddNote(NotesPage.java:65)
+	at com.notes.tests.ui.CreateNoteTest.createNoteAppearsInList(CreateNoteTest.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+</div> <!-- stack-trace -->
+                  <em>
+(TC-UI-02: Create a note via UI and verify it appears in the list)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNoteAppearsInList">
+                  </a> <!-- createNoteAppearsInList -->
+                  <span class="method-name">createNoteAppearsInList</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: a[href=&apos;/notes/app/notes/add&apos;], button[data-testid=&apos;add-note-button&apos;], a[data-testid=&apos;add-note-button&apos;] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.18&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:1754}, goog:processID: 22260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:1754/devtool..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7d792beeb78aebdef6f226182d873b2e
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.notes.base.BasePage.find(BasePage.java:49)
+	at com.notes.base.BasePage.jsClick(BasePage.java:73)
+	at com.notes.pages.NotesPage.clickAddNote(NotesPage.java:65)
+	at com.notes.tests.ui.CreateNoteTest.createNoteAppearsInList(CreateNoteTest.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+</div> <!-- stack-trace -->
+                  <em>
+(TC-UI-02: Create a note via UI and verify it appears in the list)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNoteInEachCategory">
+                  </a> <!-- createNoteInEachCategory -->
+                  <span class="method-name">createNoteInEachCategory</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: a[href=&apos;/notes/app/notes/add&apos;], button[data-testid=&apos;add-note-button&apos;], a[data-testid=&apos;add-note-button&apos;] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.18&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:12783}, goog:processID: 16760, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:12783/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a34b457b00a5497b6e9cc93b22fe096
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.notes.base.BasePage.find(BasePage.java:49)
+	at com.notes.base.BasePage.jsClick(BasePage.java:73)
+	at com.notes.pages.NotesPage.clickAddNote(NotesPage.java:65)
+	at com.notes.tests.ui.CreateNoteTest.createNoteInEachCategory(CreateNoteTest.java:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+</div> <!-- stack-trace -->
+                  <em>
+(TC-UI-03: Create notes in all three categories)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNoteInEachCategory">
+                  </a> <!-- createNoteInEachCategory -->
+                  <span class="method-name">createNoteInEachCategory</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: a[href=&apos;/notes/app/notes/add&apos;], button[data-testid=&apos;add-note-button&apos;], a[data-testid=&apos;add-note-button&apos;] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.18&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53626}, goog:processID: 19168, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53626/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 89c57840e7a97bf0cb3c4bf788f0ca2c
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.notes.base.BasePage.find(BasePage.java:49)
+	at com.notes.base.BasePage.jsClick(BasePage.java:73)
+	at com.notes.pages.NotesPage.clickAddNote(NotesPage.java:65)
+	at com.notes.tests.ui.CreateNoteTest.createNoteInEachCategory(CreateNoteTest.java:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+</div> <!-- stack-trace -->
+                  <em>
+(TC-UI-03: Create notes in all three categories)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NotesApp_CapstoneAutomation-class-skipped -->
+          <div class="suite-NotesApp_CapstoneAutomation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.notes.tests.e2e.DeletedNoteDisappearsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deletedNoteDisappearsFromUI">
+                  </a> <!-- deletedNoteDisappearsFromUI -->
+                  <span class="method-name">deletedNoteDisappearsFromUI</span>
+                  <em>
+(TC-E2E-02: Note deleted via API disappears from UI (FR-06 + FR-07))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NotesApp_CapstoneAutomation-class-passed -->
+          <div class="suite-NotesApp_CapstoneAutomation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.notes.tests.api.NotesApiTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNoteViaApiReturns200">
+                  </a> <!-- createNoteViaApiReturns200 -->
+                  <span class="method-name">createNoteViaApiReturns200</span>
+                  <em>
+(TC-API-02: POST /notes creates a note successfully)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteNonExistentNoteReturns404">
+                  </a> <!-- deleteNonExistentNoteReturns404 -->
+                  <span class="method-name">deleteNonExistentNoteReturns404</span>
+                  <em>
+(TC-API-NEG-02: DELETE non-existent note returns 404)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteNoteViaApiReturns200">
+                  </a> <!-- deleteNoteViaApiReturns200 -->
+                  <span class="method-name">deleteNoteViaApiReturns200</span>
+                  <em>
+(TC-API-03: DELETE /notes/{id} removes the note (FR-06))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getNotesReturns200WithinThreshold">
+                  </a> <!-- getNotesReturns200WithinThreshold -->
+                  <span class="method-name">getNotesReturns200WithinThreshold</span>
+                  <em>
+(TC-API-01: GET /notes returns 200 and a list within 2 seconds)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getNotesWithoutTokenReturns401">
+                  </a> <!-- getNotesWithoutTokenReturns401 -->
+                  <span class="method-name">getNotesWithoutTokenReturns401</span>
+                  <em>
+(TC-API-NEG-01: GET /notes without token returns 401)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NotesApp_CapstoneAutomation-class-passed -->
+          <div class="suite-NotesApp_CapstoneAutomation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.notes.tests.ui.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="emptyFormShowsValidationError">
+                  </a> <!-- emptyFormShowsValidationError -->
+                  <span class="method-name">emptyFormShowsValidationError</span>
+                  <em>
+(TC-UI-NEG-02: Empty form submission shows validation error)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidCredentialsShowError">
+                  </a> <!-- invalidCredentialsShowError -->
+                  <span class="method-name">invalidCredentialsShowError</span>
+                  <em>
+(TC-UI-NEG-01: Invalid credentials show error message)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validLoginNavigatesToDashboard">
+                  </a> <!-- validLoginNavigatesToDashboard -->
+                  <span class="method-name">validLoginNavigatesToDashboard</span>
+                  <em>
+(TC-UI-01: Valid login navigates to notes dashboard)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NotesApp_CapstoneAutomation-class-passed -->
+        </div> <!-- panel NotesApp_CapstoneAutomation -->
+        <div panel-name="test-xml-NotesApp_CapstoneAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Demo project Selenium\notes-automation-v3-fixed\notes-fixed\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; parallel=&quot;methods&quot; name=&quot;NotesApp-CapstoneAutomation&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;2&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;methods&quot; name=&quot;UI-Tests&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.notes.tests.ui.LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.notes.tests.ui.CreateNoteTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- UI-Tests --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;methods&quot; name=&quot;API-Tests&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.notes.tests.api.NotesApiTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- API-Tests --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;methods&quot; name=&quot;E2E-Tests&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.notes.tests.e2e.UiApiConsistencyTest&quot;/&gt;
+      &lt;class name=&quot;com.notes.tests.e2e.DeletedNoteDisappearsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- E2E-Tests --&gt;
+&lt;/suite&gt; &lt;!-- NotesApp-CapstoneAutomation --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-NotesApp_CapstoneAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for NotesApp-CapstoneAutomation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">UI-Tests (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">API-Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">E2E-Tests (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-NotesApp_CapstoneAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for NotesApp-CapstoneAutomation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-NotesApp_CapstoneAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for NotesApp-CapstoneAutomation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_NotesApp_CapstoneAutomation');
+function tableData_NotesApp_CapstoneAutomation() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'deletedNoteDisappearsFromUI')
+data.setCell(0, 2, 'com.notes.tests.e2e.DeletedNoteDisappearsTest')
+data.setCell(0, 3, 93292);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createNoteAppearsInList')
+data.setCell(1, 2, 'com.notes.tests.ui.CreateNoteTest')
+data.setCell(1, 3, 81324);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'createNoteInEachCategory')
+data.setCell(2, 2, 'com.notes.tests.ui.CreateNoteTest')
+data.setCell(2, 3, 77577);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'createNoteInEachCategory')
+data.setCell(3, 2, 'com.notes.tests.ui.CreateNoteTest')
+data.setCell(3, 3, 68560);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'createNoteInEachCategory')
+data.setCell(4, 2, 'com.notes.tests.ui.CreateNoteTest')
+data.setCell(4, 3, 68422);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'createNoteAppearsInList')
+data.setCell(5, 2, 'com.notes.tests.ui.CreateNoteTest')
+data.setCell(5, 3, 67024);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'createNoteAppearsInList')
+data.setCell(6, 2, 'com.notes.tests.ui.CreateNoteTest')
+data.setCell(6, 3, 66729);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'tc01_uiCreatedNoteMatchesApiResponse')
+data.setCell(7, 2, 'com.notes.tests.e2e.UiApiConsistencyTest')
+data.setCell(7, 3, 61538);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validLoginNavigatesToDashboard')
+data.setCell(8, 2, 'com.notes.tests.ui.LoginTest')
+data.setCell(8, 3, 58959);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'tc01_uiCreatedNoteMatchesApiResponse')
+data.setCell(9, 2, 'com.notes.tests.e2e.UiApiConsistencyTest')
+data.setCell(9, 3, 57077);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'tc01_uiCreatedNoteMatchesApiResponse')
+data.setCell(10, 2, 'com.notes.tests.e2e.UiApiConsistencyTest')
+data.setCell(10, 3, 56271);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'emptyFormShowsValidationError')
+data.setCell(11, 2, 'com.notes.tests.ui.LoginTest')
+data.setCell(11, 3, 19970);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'invalidCredentialsShowError')
+data.setCell(12, 2, 'com.notes.tests.ui.LoginTest')
+data.setCell(12, 3, 10378);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'createNoteViaApiReturns200')
+data.setCell(13, 2, 'com.notes.tests.api.NotesApiTest')
+data.setCell(13, 3, 1148);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'getNotesWithoutTokenReturns401')
+data.setCell(14, 2, 'com.notes.tests.api.NotesApiTest')
+data.setCell(14, 3, 1095);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'getNotesReturns200WithinThreshold')
+data.setCell(15, 2, 'com.notes.tests.api.NotesApiTest')
+data.setCell(15, 3, 883);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'deleteNoteViaApiReturns200')
+data.setCell(16, 2, 'com.notes.tests.api.NotesApiTest')
+data.setCell(16, 3, 844);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'deleteNonExistentNoteReturns404')
+data.setCell(17, 2, 'com.notes.tests.api.NotesApiTest')
+data.setCell(17, 3, 787);
+window.suiteTableData['NotesApp_CapstoneAutomation']= { tableData: data, tableDiv: 'times-div-NotesApp_CapstoneAutomation'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 13 minutes</span>
+              <div id="times-div-NotesApp_CapstoneAutomation">
+              </div> <!-- times-div-NotesApp_CapstoneAutomation -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-NotesApp_CapstoneAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for NotesApp-CapstoneAutomation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-NotesApp_CapstoneAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-NotesApp_CapstoneAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.notes.tests.ui.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validLoginNavigatesToDashboard</span>
+                <span class="method-start">7960 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invalidCredentialsShowError</span>
+                <span class="method-start">7962 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">emptyFormShowsValidationError</span>
+                <span class="method-start">7962 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=invalidCredentialsShowError status=SUCCESS method=LoginTest.invalidCredentialsShowE...)</span>
+                <span class="method-start">18374 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.notes.tests.ui.CreateNoteTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">20013 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createNoteAppearsInList</span>
+                <span class="method-start">25391 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.notes.tests.ui.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=emptyFormShowsValidationError status=SUCCESS method=LoginTest.emptyFormShowsValidat...)</span>
+                <span class="method-start">28042 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.notes.tests.ui.CreateNoteTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">36741 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createNoteInEachCategory</span>
+                <span class="method-start">42739 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.notes.tests.ui.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=validLoginNavigatesToDashboard status=SUCCESS method=LoginTest.validLoginNavigatesT...)</span>
+                <span class="method-start">66924 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.notes.tests.ui.CreateNoteTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=createNoteAppearsInList status=SKIP method=CreateNoteTest.createNoteAppearsInList()...)</span>
+                <span class="method-start">106725 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">107247 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createNoteAppearsInList</span>
+                <span class="method-start">109064 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=createNoteInEachCategory status=SKIP method=CreateNoteTest.createNoteInEachCategory...)</span>
+                <span class="method-start">111171 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">111817 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createNoteInEachCategory</span>
+                <span class="method-start">113404 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=createNoteAppearsInList status=SKIP method=CreateNoteTest.createNoteAppearsInList()...)</span>
+                <span class="method-start">175800 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">176747 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createNoteAppearsInList</span>
+                <span class="method-start">178204 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=createNoteInEachCategory status=SKIP method=CreateNoteTest.createNoteInEachCategory...)</span>
+                <span class="method-start">182088 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">182608 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createNoteInEachCategory</span>
+                <span class="method-start">184132 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=createNoteAppearsInList status=FAILURE method=CreateNoteTest.createNoteAppearsInLis...)</span>
+                <span class="method-start">245237 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=createNoteInEachCategory status=FAILURE method=CreateNoteTest.createNoteInEachCateg...)</span>
+                <span class="method-start">261723 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.notes.tests.api.NotesApiTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">authenticate</span>
+                <span class="method-start">262567 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">getNotesReturns200WithinThreshold</span>
+                <span class="method-start">267700 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getNotesWithoutTokenReturns401</span>
+                <span class="method-start">267706 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createNoteViaApiReturns200</span>
+                <span class="method-start">267709 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteNonExistentNoteReturns404</span>
+                <span class="method-start">268590 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteNoteViaApiReturns200</span>
+                <span class="method-start">268876 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.notes.tests.e2e.DeletedNoteDisappearsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">269750 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.notes.tests.e2e.UiApiConsistencyTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">269750 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.notes.tests.e2e.DeletedNoteDisappearsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">deletedNoteDisappearsFromUI</span>
+                <span class="method-start">272372 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.notes.tests.e2e.UiApiConsistencyTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">tc01_uiCreatedNoteMatchesApiResponse</span>
+                <span class="method-start">272558 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc01_uiCreatedNoteMatchesApiResponse status=SKIP method=UiApiConsistencyTest.tc01_u...)</span>
+                <span class="method-start">334121 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">335376 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc01_uiCreatedNoteMatchesApiResponse</span>
+                <span class="method-start">336882 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.notes.tests.e2e.DeletedNoteDisappearsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=deletedNoteDisappearsFromUI status=SUCCESS method=DeletedNoteDisappearsTest.deleted...)</span>
+                <span class="method-start">365685 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.notes.tests.e2e.UiApiConsistencyTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc01_uiCreatedNoteMatchesApiResponse status=SKIP method=UiApiConsistencyTest.tc01_u...)</span>
+                <span class="method-start">393160 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">393623 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc01_uiCreatedNoteMatchesApiResponse</span>
+                <span class="method-start">395053 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc01_uiCreatedNoteMatchesApiResponse status=FAILURE method=UiApiConsistencyTest.tc0...)</span>
+                <span class="method-start">452135 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

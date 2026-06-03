@@ -1,0 +1,329 @@
+2026-05-30 18:45:49.708 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+2026-05-30 18:45:49.719 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+2026-05-30 18:45:49.724 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:49.724 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:49.726 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:49.728 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:49.733 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:49.734 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:49.736 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:49.737 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:49.743 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:49.743 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:49.745 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:49.745 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:49.747 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:49.748 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:49.764 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2026-05-30 18:45:49.786 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 21 ms.
+2026-05-30 18:45:49.789 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:49.791 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:49.799 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:49.801 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:49.804 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:49.805 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:49.810 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:49.812 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:49.815 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:49.817 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:49.819 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:49.821 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:49.823 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:49.824 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:49.825 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:49.826 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:49.828 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:49.829 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:49.830 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:49.831 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:49.833 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:49.835 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-05-30 18:45:49.844 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:49.845 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:49.847 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:49.847 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:49.872 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 19 ms.
+2026-05-30 18:45:49.881 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 6 ms.
+2026-05-30 18:45:49.883 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:49.884 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:49.885 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:49.886 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:50.708 [main] INFO  com.notes.config.ConfigReader — config.properties loaded successfully.
+2026-05-30 18:45:50.815 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:50.816 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:50.825 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:50.831 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:50.835 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:50.838 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:50.843 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:50.844 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:50.846 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:50.848 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:50.850 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:50.850 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:50.851 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:50.855 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:50.856 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:50.857 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:50.858 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:50.859 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:50.861 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:50.862 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:50.862 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:50.862 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:50.863 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:50.863 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:50.864 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2026-05-30 18:45:50.874 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 10 ms.
+2026-05-30 18:45:50.875 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:50.876 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:50.876 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:50.876 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:50.895 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:50.896 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:50.898 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:50.904 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:50.907 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:50.911 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:50.917 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:50.921 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:50.927 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:50.930 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:50.935 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:50.938 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:50.955 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:50.959 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:50.963 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:50.964 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:50.971 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:50.974 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+2026-05-30 18:45:50.978 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:50.982 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:51.005 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:51.012 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:51.017 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:51.018 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:51.018 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:51.022 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:51.023 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:51.025 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:51.026 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:51.027 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:51.030 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:51.030 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:51.035 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:51.038 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:51.041 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:51.042 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:51.045 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:51.046 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-05-30 18:45:51.051 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:51.054 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+2026-05-30 18:45:51.055 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:51.057 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:51.059 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:51.061 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:51.077 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 14 ms.
+2026-05-30 18:45:51.084 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 3 ms.
+2026-05-30 18:45:51.092 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:51.097 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:51.101 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-30 18:45:51.104 [main] INFO  org.testng.internal.Utils — [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-30 18:45:51.110 [main] INFO  org.testng.internal.Utils — [TestNG] Running:
+  D:\Demo project Selenium\notes-automation-v3-fixed\notes-fixed\src\test\resources\testng.xml
+
+2026-05-30 18:45:51.186 [main] INFO  org.testng.internal.Utils — [Utils] DynamicGraphHelper.createDynamicGraph() took 7 ms.
+2026-05-30 18:45:51.213 [main] INFO  org.testng.internal.Utils — [TestTaskExecutor] Starting executor test 2147483647 with time out: 2147483647 milliseconds.
+2026-05-30 18:45:53.291 [TestNG-test-UI-Tests-3] INFO  i.g.bonigarcia.wdm.WebDriverManager — Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-30 18:45:53.291 [TestNG-test-UI-Tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager — Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-30 18:45:53.298 [TestNG-test-UI-Tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager — Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-30 18:45:53.400 [TestNG-test-UI-Tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager — Exporting webdriver.chrome.driver as C:\Users\Asus\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-30 18:45:53.392 [TestNG-test-UI-Tests-3] INFO  i.g.bonigarcia.wdm.WebDriverManager — Exporting webdriver.chrome.driver as C:\Users\Asus\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-30 18:45:53.390 [TestNG-test-UI-Tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager — Exporting webdriver.chrome.driver as C:\Users\Asus\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-30 18:45:58.210 [TestNG-test-UI-Tests-1] INFO  com.notes.drivers.DriverFactory — [Thread 19] chrome WebDriver initialised (headless=false)
+2026-05-30 18:45:58.216 [TestNG-test-UI-Tests-3] INFO  com.notes.drivers.DriverFactory — [Thread 21] chrome WebDriver initialised (headless=false)
+2026-05-30 18:45:58.255 [TestNG-test-UI-Tests-2] INFO  com.notes.drivers.DriverFactory — [Thread 20] chrome WebDriver initialised (headless=false)
+2026-05-30 18:45:58.403 [TestNG-test-UI-Tests-3] INFO  com.notes.tests.ui.LoginTest — [Thread 21] WebDriver initialised. Test starting.
+2026-05-30 18:45:58.653 [TestNG-test-UI-Tests-1] INFO  com.notes.tests.ui.LoginTest — [Thread 19] WebDriver initialised. Test starting.
+2026-05-30 18:45:58.655 [TestNG-test-UI-Tests-2] INFO  com.notes.tests.ui.LoginTest — [Thread 20] WebDriver initialised. Test starting.
+2026-05-30 18:46:06.405 [TestNG-test-UI-Tests-2] INFO  com.notes.pages.LoginPage — Navigated to: https://practice.expandtesting.com/notes/app/login
+2026-05-30 18:46:06.406 [TestNG-test-UI-Tests-2] INFO  com.notes.pages.LoginPage — LoginPage loaded.
+2026-05-30 18:46:07.298 [TestNG-test-UI-Tests-1] INFO  com.notes.pages.LoginPage — Navigated to: https://practice.expandtesting.com/notes/app/login
+2026-05-30 18:46:07.298 [TestNG-test-UI-Tests-1] INFO  com.notes.pages.LoginPage — LoginPage loaded.
+2026-05-30 18:46:09.461 [TestNG-test-UI-Tests-2] INFO  com.notes.pages.LoginPage — Error alert appeared after failed login.
+2026-05-30 18:46:09.603 [TestNG-test-UI-Tests-2] INFO  com.notes.tests.ui.LoginTest — TC-UI-NEG-01 PASSED — error message displayed.
+2026-05-30 18:46:11.272 [TestNG-test-UI-Tests-2] INFO  com.notes.drivers.DriverFactory — [Thread 20] WebDriver quit successfully.
+2026-05-30 18:46:11.272 [TestNG-test-UI-Tests-2] INFO  com.notes.tests.ui.LoginTest — [Thread 20] Test teardown complete.
+2026-05-30 18:46:11.331 [TestNG-test-UI-Tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager — Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-30 18:46:11.358 [TestNG-test-UI-Tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager — Exporting webdriver.chrome.driver as C:\Users\Asus\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-30 18:46:15.786 [TestNG-test-UI-Tests-1] WARN  com.notes.pages.LoginPage — Error alert did not appear within 6 s — isErrorDisplayed() will return false.
+2026-05-30 18:46:16.518 [TestNG-test-UI-Tests-2] INFO  com.notes.drivers.DriverFactory — [Thread 20] chrome WebDriver initialised (headless=false)
+2026-05-30 18:46:16.653 [TestNG-test-UI-Tests-2] INFO  com.notes.tests.ui.CreateNoteTest — [Thread 20] WebDriver initialised. Test starting.
+2026-05-30 18:46:19.179 [TestNG-test-UI-Tests-1] INFO  com.notes.tests.ui.LoginTest — TC-UI-NEG-02 PASSED — form validation handled.
+2026-05-30 18:46:27.971 [TestNG-test-UI-Tests-1] INFO  com.notes.drivers.DriverFactory — [Thread 19] WebDriver quit successfully.
+2026-05-30 18:46:27.972 [TestNG-test-UI-Tests-1] INFO  com.notes.tests.ui.LoginTest — [Thread 19] Test teardown complete.
+2026-05-30 18:46:28.124 [TestNG-test-UI-Tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager — Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-30 18:46:28.229 [TestNG-test-UI-Tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager — Exporting webdriver.chrome.driver as C:\Users\Asus\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-30 18:46:32.495 [TestNG-test-UI-Tests-3] INFO  com.notes.pages.LoginPage — Navigated to: https://practice.expandtesting.com/notes/app/login
+2026-05-30 18:46:32.495 [TestNG-test-UI-Tests-3] INFO  com.notes.pages.LoginPage — LoginPage loaded.
+2026-05-30 18:46:33.637 [TestNG-test-UI-Tests-1] INFO  com.notes.drivers.DriverFactory — [Thread 19] chrome WebDriver initialised (headless=false)
+2026-05-30 18:46:33.987 [TestNG-test-UI-Tests-1] INFO  com.notes.tests.ui.CreateNoteTest — [Thread 19] WebDriver initialised. Test starting.
+2026-05-30 18:46:35.195 [TestNG-test-UI-Tests-2] INFO  com.notes.pages.LoginPage — Navigated to: https://practice.expandtesting.com/notes/app/login
+2026-05-30 18:46:35.195 [TestNG-test-UI-Tests-2] INFO  com.notes.pages.LoginPage — LoginPage loaded.
+2026-05-30 18:46:46.621 [TestNG-test-UI-Tests-3] INFO  com.notes.pages.LoginPage — Login submitted — navigated to dashboard.
+2026-05-30 18:46:46.946 [TestNG-test-UI-Tests-2] INFO  com.notes.pages.LoginPage — Login submitted — navigated to dashboard.
+2026-05-30 18:46:49.423 [TestNG-test-UI-Tests-1] INFO  com.notes.pages.LoginPage — Navigated to: https://practice.expandtesting.com/notes/app/login
+2026-05-30 18:46:49.424 [TestNG-test-UI-Tests-1] INFO  com.notes.pages.LoginPage — LoginPage loaded.
+2026-05-30 18:46:51.594 [TestNG-test-UI-Tests-1] INFO  com.notes.pages.LoginPage — Login submitted — navigated to dashboard.
+2026-05-30 18:46:57.689 [TestNG-test-UI-Tests-3] WARN  com.notes.pages.NotesPage — Notes page ready-indicator not found within 10 s; proceeding anyway.
+2026-05-30 18:46:57.705 [TestNG-test-UI-Tests-2] WARN  com.notes.pages.NotesPage — Notes page ready-indicator not found within 10 s; proceeding anyway.
+2026-05-30 18:46:58.182 [TestNG-test-UI-Tests-3] INFO  com.notes.tests.ui.LoginTest — TC-UI-01 PASSED — user is on dashboard.
+2026-05-30 18:47:01.993 [TestNG-test-UI-Tests-1] WARN  com.notes.pages.NotesPage — Notes page ready-indicator not found within 10 s; proceeding anyway.
+2026-05-30 18:47:04.098 [TestNG-test-UI-Tests-3] INFO  com.notes.drivers.DriverFactory — [Thread 21] WebDriver quit successfully.
+2026-05-30 18:47:04.099 [TestNG-test-UI-Tests-3] INFO  com.notes.tests.ui.LoginTest — [Thread 21] Test teardown complete.
+2026-05-30 18:47:37.979 [TestNG-test-UI-Tests-2] WARN  com.notes.utils.RetryAnalyzer — Retrying test 'createNoteAppearsInList' — attempt 1/2
+2026-05-30 18:47:38.507 [TestNG-test-UI-Tests-2] INFO  com.notes.drivers.DriverFactory — [Thread 20] WebDriver quit successfully.
+2026-05-30 18:47:38.507 [TestNG-test-UI-Tests-2] INFO  com.notes.tests.ui.CreateNoteTest — [Thread 20] Test teardown complete.
+2026-05-30 18:47:38.529 [TestNG-test-UI-Tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager — Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-30 18:47:38.610 [TestNG-test-UI-Tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager — Exporting webdriver.chrome.driver as C:\Users\Asus\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-30 18:47:40.263 [TestNG-test-UI-Tests-2] INFO  com.notes.drivers.DriverFactory — [Thread 20] chrome WebDriver initialised (headless=false)
+2026-05-30 18:47:40.316 [TestNG-test-UI-Tests-2] INFO  com.notes.tests.ui.CreateNoteTest — [Thread 20] WebDriver initialised. Test starting.
+2026-05-30 18:47:42.426 [TestNG-test-UI-Tests-1] WARN  com.notes.utils.RetryAnalyzer — Retrying test 'createNoteInEachCategory' — attempt 1/2
+2026-05-30 18:47:43.078 [TestNG-test-UI-Tests-1] INFO  com.notes.drivers.DriverFactory — [Thread 19] WebDriver quit successfully.
+2026-05-30 18:47:43.078 [TestNG-test-UI-Tests-1] INFO  com.notes.tests.ui.CreateNoteTest — [Thread 19] Test teardown complete.
+2026-05-30 18:47:43.104 [TestNG-test-UI-Tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager — Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-30 18:47:43.130 [TestNG-test-UI-Tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager — Exporting webdriver.chrome.driver as C:\Users\Asus\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-30 18:47:44.584 [TestNG-test-UI-Tests-1] INFO  com.notes.drivers.DriverFactory — [Thread 19] chrome WebDriver initialised (headless=false)
+2026-05-30 18:47:44.653 [TestNG-test-UI-Tests-1] INFO  com.notes.tests.ui.CreateNoteTest — [Thread 19] WebDriver initialised. Test starting.
+2026-05-30 18:47:55.837 [TestNG-test-UI-Tests-2] INFO  com.notes.pages.LoginPage — Navigated to: https://practice.expandtesting.com/notes/app/login
+2026-05-30 18:47:55.837 [TestNG-test-UI-Tests-2] INFO  com.notes.pages.LoginPage — LoginPage loaded.
+2026-05-30 18:47:56.171 [TestNG-test-UI-Tests-1] INFO  com.notes.pages.LoginPage — Navigated to: https://practice.expandtesting.com/notes/app/login
+2026-05-30 18:47:56.171 [TestNG-test-UI-Tests-1] INFO  com.notes.pages.LoginPage — LoginPage loaded.
+2026-05-30 18:47:56.725 [TestNG-test-UI-Tests-2] INFO  com.notes.pages.LoginPage — Login submitted — navigated to dashboard.
+2026-05-30 18:48:02.694 [TestNG-test-UI-Tests-1] INFO  com.notes.pages.LoginPage — Login submitted — navigated to dashboard.
+2026-05-30 18:48:06.964 [TestNG-test-UI-Tests-2] WARN  com.notes.pages.NotesPage — Notes page ready-indicator not found within 10 s; proceeding anyway.
+2026-05-30 18:48:13.072 [TestNG-test-UI-Tests-1] WARN  com.notes.pages.NotesPage — Notes page ready-indicator not found within 10 s; proceeding anyway.
+2026-05-30 18:48:47.057 [TestNG-test-UI-Tests-2] WARN  com.notes.utils.RetryAnalyzer — Retrying test 'createNoteAppearsInList' — attempt 2/2
+2026-05-30 18:48:48.007 [TestNG-test-UI-Tests-2] INFO  com.notes.drivers.DriverFactory — [Thread 20] WebDriver quit successfully.
+2026-05-30 18:48:48.008 [TestNG-test-UI-Tests-2] INFO  com.notes.tests.ui.CreateNoteTest — [Thread 20] Test teardown complete.
+2026-05-30 18:48:48.026 [TestNG-test-UI-Tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager — Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-30 18:48:48.042 [TestNG-test-UI-Tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager — Exporting webdriver.chrome.driver as C:\Users\Asus\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-30 18:48:49.383 [TestNG-test-UI-Tests-2] INFO  com.notes.drivers.DriverFactory — [Thread 20] chrome WebDriver initialised (headless=false)
+2026-05-30 18:48:49.466 [TestNG-test-UI-Tests-2] INFO  com.notes.tests.ui.CreateNoteTest — [Thread 20] WebDriver initialised. Test starting.
+2026-05-30 18:48:53.228 [TestNG-test-UI-Tests-1] WARN  com.notes.utils.RetryAnalyzer — Retrying test 'createNoteInEachCategory' — attempt 2/2
+2026-05-30 18:48:53.868 [TestNG-test-UI-Tests-1] INFO  com.notes.drivers.DriverFactory — [Thread 19] WebDriver quit successfully.
+2026-05-30 18:48:53.868 [TestNG-test-UI-Tests-1] INFO  com.notes.tests.ui.CreateNoteTest — [Thread 19] Test teardown complete.
+2026-05-30 18:48:53.887 [TestNG-test-UI-Tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager — Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-30 18:48:53.899 [TestNG-test-UI-Tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager — Exporting webdriver.chrome.driver as C:\Users\Asus\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-30 18:48:55.330 [TestNG-test-UI-Tests-1] INFO  com.notes.drivers.DriverFactory — [Thread 19] chrome WebDriver initialised (headless=false)
+2026-05-30 18:48:55.388 [TestNG-test-UI-Tests-1] INFO  com.notes.tests.ui.CreateNoteTest — [Thread 19] WebDriver initialised. Test starting.
+2026-05-30 18:49:05.004 [TestNG-test-UI-Tests-2] INFO  com.notes.pages.LoginPage — Navigated to: https://practice.expandtesting.com/notes/app/login
+2026-05-30 18:49:05.005 [TestNG-test-UI-Tests-2] INFO  com.notes.pages.LoginPage — LoginPage loaded.
+2026-05-30 18:49:06.197 [TestNG-test-UI-Tests-2] INFO  com.notes.pages.LoginPage — Login submitted — navigated to dashboard.
+2026-05-30 18:49:16.239 [TestNG-test-UI-Tests-2] WARN  com.notes.pages.NotesPage — Notes page ready-indicator not found within 10 s; proceeding anyway.
+2026-05-30 18:49:21.278 [TestNG-test-UI-Tests-1] INFO  com.notes.pages.LoginPage — Navigated to: https://practice.expandtesting.com/notes/app/login
+2026-05-30 18:49:21.278 [TestNG-test-UI-Tests-1] INFO  com.notes.pages.LoginPage — LoginPage loaded.
+2026-05-30 18:49:22.450 [TestNG-test-UI-Tests-1] INFO  com.notes.pages.LoginPage — Login submitted — navigated to dashboard.
+2026-05-30 18:49:32.817 [TestNG-test-UI-Tests-1] WARN  com.notes.pages.NotesPage — Notes page ready-indicator not found within 10 s; proceeding anyway.
+2026-05-30 18:49:56.492 [TestNG-test-UI-Tests-2] ERROR com.notes.utils.RetryAnalyzer — Test 'createNoteAppearsInList' failed after 2 retries. No more retries.
+2026-05-30 18:49:56.501 [TestNG-test-UI-Tests-2] WARN  com.notes.tests.ui.CreateNoteTest — Test FAILED: createNoteAppearsInList
+2026-05-30 18:49:56.713 [TestNG-test-UI-Tests-2] INFO  com.notes.utils.ScreenshotUtil — Screenshot saved: D:\Demo project Selenium\notes-automation-v3-fixed\notes-fixed\target\screenshots\screenshot_20260530_184956_710.png
+2026-05-30 18:49:57.472 [TestNG-test-UI-Tests-2] INFO  com.notes.drivers.DriverFactory — [Thread 20] WebDriver quit successfully.
+2026-05-30 18:49:57.473 [TestNG-test-UI-Tests-2] INFO  com.notes.tests.ui.CreateNoteTest — [Thread 20] Test teardown complete.
+2026-05-30 18:50:12.973 [TestNG-test-UI-Tests-1] ERROR com.notes.utils.RetryAnalyzer — Test 'createNoteInEachCategory' failed after 2 retries. No more retries.
+2026-05-30 18:50:12.989 [TestNG-test-UI-Tests-1] WARN  com.notes.tests.ui.CreateNoteTest — Test FAILED: createNoteInEachCategory
+2026-05-30 18:50:13.228 [TestNG-test-UI-Tests-1] INFO  com.notes.utils.ScreenshotUtil — Screenshot saved: D:\Demo project Selenium\notes-automation-v3-fixed\notes-fixed\target\screenshots\screenshot_20260530_185013_225.png
+2026-05-30 18:50:13.751 [TestNG-test-UI-Tests-1] INFO  com.notes.drivers.DriverFactory — [Thread 19] WebDriver quit successfully.
+2026-05-30 18:50:13.751 [TestNG-test-UI-Tests-1] INFO  com.notes.tests.ui.CreateNoteTest — [Thread 19] Test teardown complete.
+2026-05-30 18:50:13.828 [main] INFO  org.testng.internal.Utils — [Utils] DynamicGraphHelper.createDynamicGraph() took 1 ms.
+2026-05-30 18:50:13.830 [main] INFO  org.testng.internal.Utils — [TestTaskExecutor] Starting executor test 2147483647 with time out: 2147483647 milliseconds.
+2026-05-30 18:50:17.507 [TestNG-test-API-Tests-1] INFO  com.notes.api.ApiBase — API response time: 1623 ms (threshold: 20000 ms)
+2026-05-30 18:50:18.960 [TestNG-test-API-Tests-1] INFO  com.notes.api.AuthApiClient — Login successful. Token acquired (first 10 chars): 05ea98fe2e...
+2026-05-30 18:50:18.963 [TestNG-test-API-Tests-1] INFO  com.notes.tests.api.NotesApiTest — API test class authenticated.
+2026-05-30 18:50:19.839 [TestNG-test-API-Tests-1] INFO  com.notes.api.ApiBase — API response time: 710 ms (threshold: 20000 ms)
+2026-05-30 18:50:19.841 [TestNG-test-API-Tests-1] INFO  com.notes.api.NotesApiClient — GET /notes → 200
+2026-05-30 18:50:19.846 [TestNG-test-API-Tests-1] INFO  com.notes.tests.api.NotesApiTest — TC-API-01 PASSED — GET /notes returned 200 within threshold.
+2026-05-30 18:50:20.035 [TestNG-test-API-Tests-2] INFO  com.notes.api.ApiBase — API response time: 921 ms (threshold: 20000 ms)
+2026-05-30 18:50:20.035 [TestNG-test-API-Tests-2] INFO  com.notes.api.NotesApiClient — POST /notes → 200 | title='Note_0530185018'
+2026-05-30 18:50:20.064 [TestNG-test-API-Tests-3] INFO  com.notes.api.ApiBase — API response time: 962 ms (threshold: 20000 ms)
+2026-05-30 18:50:20.064 [TestNG-test-API-Tests-3] INFO  com.notes.api.NotesApiClient — GET /notes → 401
+2026-05-30 18:50:20.065 [TestNG-test-API-Tests-3] INFO  com.notes.tests.api.NotesApiTest — TC-API-NEG-01 PASSED — 401 returned for invalid token.
+2026-05-30 18:50:20.117 [TestNG-test-API-Tests-2] INFO  com.notes.tests.api.NotesApiTest — TC-API-02 PASSED — note created with id: 6a1ae41351ccbd0297d505d7
+2026-05-30 18:50:20.634 [TestNG-test-API-Tests-1] INFO  com.notes.api.ApiBase — API response time: 721 ms (threshold: 20000 ms)
+2026-05-30 18:50:20.634 [TestNG-test-API-Tests-1] INFO  com.notes.api.NotesApiClient — DELETE /notes/000000000000000000000000 → 404
+2026-05-30 18:50:20.639 [TestNG-test-API-Tests-1] INFO  com.notes.tests.api.NotesApiTest — TC-API-NEG-02 PASSED — 404 returned for unknown note id.
+2026-05-30 18:50:20.982 [TestNG-test-API-Tests-2] INFO  com.notes.api.ApiBase — API response time: 742 ms (threshold: 20000 ms)
+2026-05-30 18:50:20.983 [TestNG-test-API-Tests-2] INFO  com.notes.api.NotesApiClient — DELETE /notes/6a1ae41351ccbd0297d505d7 → 200
+2026-05-30 18:50:20.984 [TestNG-test-API-Tests-2] INFO  com.notes.tests.api.NotesApiTest — TC-API-03 PASSED — note 6a1ae41351ccbd0297d505d7 deleted.
+2026-05-30 18:50:21.011 [main] INFO  org.testng.internal.Utils — [Utils] DynamicGraphHelper.createDynamicGraph() took 0 ms.
+2026-05-30 18:50:21.013 [main] INFO  org.testng.internal.Utils — [TestTaskExecutor] Starting executor test 2147483647 with time out: 2147483647 milliseconds.
+2026-05-30 18:50:21.041 [TestNG-test-E2E-Tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager — Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-30 18:50:21.051 [TestNG-test-E2E-Tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager — Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-30 18:50:21.078 [TestNG-test-E2E-Tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager — Exporting webdriver.chrome.driver as C:\Users\Asus\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-30 18:50:21.086 [TestNG-test-E2E-Tests-2] INFO  i.g.bonigarcia.wdm.WebDriverManager — Exporting webdriver.chrome.driver as C:\Users\Asus\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-30 18:50:23.470 [TestNG-test-E2E-Tests-2] INFO  com.notes.drivers.DriverFactory — [Thread 160] chrome WebDriver initialised (headless=false)
+2026-05-30 18:50:23.632 [TestNG-test-E2E-Tests-2] INFO  c.n.t.e2e.DeletedNoteDisappearsTest — [Thread 160] WebDriver initialised. Test starting.
+2026-05-30 18:50:23.638 [TestNG-test-E2E-Tests-1] INFO  com.notes.drivers.DriverFactory — [Thread 159] chrome WebDriver initialised (headless=false)
+2026-05-30 18:50:23.819 [TestNG-test-E2E-Tests-1] INFO  c.n.tests.e2e.UiApiConsistencyTest — [Thread 159] WebDriver initialised. Test starting.
+2026-05-30 18:50:23.848 [TestNG-test-E2E-Tests-1] INFO  c.n.tests.e2e.UiApiConsistencyTest — TC-01 START | category='Work' title='Note_0530185023' description='Auto-generated description [ab5c86a5-60e0-461f-8e34-9302832f62ac]'
+2026-05-30 18:50:24.629 [TestNG-test-E2E-Tests-2] INFO  com.notes.api.ApiBase — API response time: 907 ms (threshold: 20000 ms)
+2026-05-30 18:50:24.652 [TestNG-test-E2E-Tests-2] INFO  com.notes.api.AuthApiClient — Login successful. Token acquired (first 10 chars): 05ea98fe2e...
+2026-05-30 18:50:25.732 [TestNG-test-E2E-Tests-2] INFO  com.notes.api.ApiBase — API response time: 1039 ms (threshold: 20000 ms)
+2026-05-30 18:50:25.733 [TestNG-test-E2E-Tests-2] INFO  com.notes.api.NotesApiClient — POST /notes → 200 | title='Note_0530185023'
+2026-05-30 18:50:25.777 [TestNG-test-E2E-Tests-2] INFO  c.n.t.e2e.DeletedNoteDisappearsTest — Note created via API. id=6a1ae41951ccbd0297d505ec
+2026-05-30 18:50:33.367 [TestNG-test-E2E-Tests-1] INFO  com.notes.pages.LoginPage — Navigated to: https://practice.expandtesting.com/notes/app/login
+2026-05-30 18:50:33.367 [TestNG-test-E2E-Tests-1] INFO  com.notes.pages.LoginPage — LoginPage loaded.
+2026-05-30 18:50:34.388 [TestNG-test-E2E-Tests-2] INFO  com.notes.pages.LoginPage — Navigated to: https://practice.expandtesting.com/notes/app/login
+2026-05-30 18:50:34.388 [TestNG-test-E2E-Tests-2] INFO  com.notes.pages.LoginPage — LoginPage loaded.
+2026-05-30 18:50:34.579 [TestNG-test-E2E-Tests-1] INFO  com.notes.pages.LoginPage — Login submitted — navigated to dashboard.
+2026-05-30 18:50:37.169 [TestNG-test-E2E-Tests-2] INFO  com.notes.pages.LoginPage — Login submitted — navigated to dashboard.
+2026-05-30 18:50:44.965 [TestNG-test-E2E-Tests-1] WARN  com.notes.pages.NotesPage — Notes page ready-indicator not found within 10 s; proceeding anyway.
+2026-05-30 18:50:45.025 [TestNG-test-E2E-Tests-1] INFO  c.n.tests.e2e.UiApiConsistencyTest — FR-01 ✓ — Logged in. Current URL: https://practice.expandtesting.com/notes/app
+2026-05-30 18:50:47.398 [TestNG-test-E2E-Tests-2] WARN  com.notes.pages.NotesPage — Notes page ready-indicator not found within 10 s; proceeding anyway.
+2026-05-30 18:50:55.145 [TestNG-test-E2E-Tests-2] INFO  com.notes.pages.NotesPage — Note 'Note_0530185023' is visible.
+2026-05-30 18:50:55.638 [TestNG-test-E2E-Tests-2] INFO  com.notes.utils.ScreenshotUtil — Screenshot saved: D:\Demo project Selenium\notes-automation-v3-fixed\notes-fixed\target\screenshots\screenshot_20260530_185055_624.png
+2026-05-30 18:50:56.750 [TestNG-test-E2E-Tests-2] INFO  com.notes.api.ApiBase — API response time: 959 ms (threshold: 20000 ms)
+2026-05-30 18:50:56.751 [TestNG-test-E2E-Tests-2] INFO  com.notes.api.NotesApiClient — DELETE /notes/6a1ae41951ccbd0297d505ec → 200
+2026-05-30 18:50:56.759 [TestNG-test-E2E-Tests-2] INFO  c.n.t.e2e.DeletedNoteDisappearsTest — Note deleted via API. id=6a1ae41951ccbd0297d505ec
+2026-05-30 18:51:25.360 [TestNG-test-E2E-Tests-1] WARN  com.notes.utils.RetryAnalyzer — Retrying test 'tc01_uiCreatedNoteMatchesApiResponse' — attempt 1/2
+2026-05-30 18:51:26.638 [TestNG-test-E2E-Tests-1] INFO  com.notes.drivers.DriverFactory — [Thread 159] WebDriver quit successfully.
+2026-05-30 18:51:26.638 [TestNG-test-E2E-Tests-1] INFO  c.n.tests.e2e.UiApiConsistencyTest — [Thread 159] Test teardown complete.
+2026-05-30 18:51:26.657 [TestNG-test-E2E-Tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager — Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-30 18:51:26.674 [TestNG-test-E2E-Tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager — Exporting webdriver.chrome.driver as C:\Users\Asus\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-30 18:51:28.063 [TestNG-test-E2E-Tests-1] INFO  com.notes.drivers.DriverFactory — [Thread 159] chrome WebDriver initialised (headless=false)
+2026-05-30 18:51:28.143 [TestNG-test-E2E-Tests-1] INFO  c.n.tests.e2e.UiApiConsistencyTest — [Thread 159] WebDriver initialised. Test starting.
+2026-05-30 18:51:28.171 [TestNG-test-E2E-Tests-1] INFO  c.n.tests.e2e.UiApiConsistencyTest — TC-01 START | category='Work' title='Note_0530185128' description='Auto-generated description [5ec17ee6-1b1c-4355-937f-8101da3d89eb]'
+2026-05-30 18:51:33.468 [TestNG-test-E2E-Tests-1] INFO  com.notes.pages.LoginPage — Navigated to: https://practice.expandtesting.com/notes/app/login
+2026-05-30 18:51:33.470 [TestNG-test-E2E-Tests-1] INFO  com.notes.pages.LoginPage — LoginPage loaded.
+2026-05-30 18:51:34.206 [TestNG-test-E2E-Tests-1] INFO  com.notes.pages.LoginPage — Login submitted — navigated to dashboard.
+2026-05-30 18:51:44.375 [TestNG-test-E2E-Tests-1] WARN  com.notes.pages.NotesPage — Notes page ready-indicator not found within 10 s; proceeding anyway.
+2026-05-30 18:51:44.390 [TestNG-test-E2E-Tests-1] INFO  c.n.tests.e2e.UiApiConsistencyTest — FR-01 ✓ — Logged in. Current URL: https://practice.expandtesting.com/notes/app
+2026-05-30 18:51:56.381 [TestNG-test-E2E-Tests-2] WARN  com.notes.pages.NotesPage — Note 'Note_0530185023' not found within 10 s.
+2026-05-30 18:51:56.923 [TestNG-test-E2E-Tests-2] INFO  com.notes.utils.ScreenshotUtil — Screenshot saved: D:\Demo project Selenium\notes-automation-v3-fixed\notes-fixed\target\screenshots\screenshot_20260530_185156_920.png
+2026-05-30 18:51:56.927 [TestNG-test-E2E-Tests-2] INFO  c.n.t.e2e.DeletedNoteDisappearsTest — TC-E2E-02 PASSED — note 'Note_0530185023' no longer visible in UI after API delete.
+2026-05-30 18:51:57.769 [TestNG-test-E2E-Tests-2] INFO  com.notes.drivers.DriverFactory — [Thread 160] WebDriver quit successfully.
+2026-05-30 18:51:57.769 [TestNG-test-E2E-Tests-2] INFO  c.n.t.e2e.DeletedNoteDisappearsTest — [Thread 160] Test teardown complete.
+2026-05-30 18:52:24.417 [TestNG-test-E2E-Tests-1] WARN  com.notes.utils.RetryAnalyzer — Retrying test 'tc01_uiCreatedNoteMatchesApiResponse' — attempt 2/2
+2026-05-30 18:52:24.884 [TestNG-test-E2E-Tests-1] INFO  com.notes.drivers.DriverFactory — [Thread 159] WebDriver quit successfully.
+2026-05-30 18:52:24.884 [TestNG-test-E2E-Tests-1] INFO  c.n.tests.e2e.UiApiConsistencyTest — [Thread 159] Test teardown complete.
+2026-05-30 18:52:24.902 [TestNG-test-E2E-Tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager — Using chromedriver 148.0.7778.178 (resolved driver for Chrome 148)
+2026-05-30 18:52:24.914 [TestNG-test-E2E-Tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager — Exporting webdriver.chrome.driver as C:\Users\Asus\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe
+2026-05-30 18:52:26.224 [TestNG-test-E2E-Tests-1] INFO  com.notes.drivers.DriverFactory — [Thread 159] chrome WebDriver initialised (headless=false)
+2026-05-30 18:52:26.299 [TestNG-test-E2E-Tests-1] INFO  c.n.tests.e2e.UiApiConsistencyTest — [Thread 159] WebDriver initialised. Test starting.
+2026-05-30 18:52:26.329 [TestNG-test-E2E-Tests-1] INFO  c.n.tests.e2e.UiApiConsistencyTest — TC-01 START | category='Work' title='Note_0530185226' description='Auto-generated description [f30e39f3-bc26-4b30-ae82-c91f6e7f1d2b]'
+2026-05-30 18:52:32.216 [TestNG-test-E2E-Tests-1] INFO  com.notes.pages.LoginPage — Navigated to: https://practice.expandtesting.com/notes/app/login
+2026-05-30 18:52:32.216 [TestNG-test-E2E-Tests-1] INFO  com.notes.pages.LoginPage — LoginPage loaded.
+2026-05-30 18:52:33.257 [TestNG-test-E2E-Tests-1] INFO  com.notes.pages.LoginPage — Login submitted — navigated to dashboard.
+2026-05-30 18:52:43.305 [TestNG-test-E2E-Tests-1] WARN  com.notes.pages.NotesPage — Notes page ready-indicator not found within 10 s; proceeding anyway.
+2026-05-30 18:52:43.316 [TestNG-test-E2E-Tests-1] INFO  c.n.tests.e2e.UiApiConsistencyTest — FR-01 ✓ — Logged in. Current URL: https://practice.expandtesting.com/notes/app
+2026-05-30 18:53:23.394 [TestNG-test-E2E-Tests-1] ERROR com.notes.utils.RetryAnalyzer — Test 'tc01_uiCreatedNoteMatchesApiResponse' failed after 2 retries. No more retries.
+2026-05-30 18:53:23.400 [TestNG-test-E2E-Tests-1] WARN  c.n.tests.e2e.UiApiConsistencyTest — Test FAILED: tc01_uiCreatedNoteMatchesApiResponse
+2026-05-30 18:53:23.516 [TestNG-test-E2E-Tests-1] INFO  com.notes.utils.ScreenshotUtil — Screenshot saved: D:\Demo project Selenium\notes-automation-v3-fixed\notes-fixed\target\screenshots\screenshot_20260530_185323_514.png
+2026-05-30 18:53:24.285 [TestNG-test-E2E-Tests-1] INFO  com.notes.drivers.DriverFactory — [Thread 159] WebDriver quit successfully.
+2026-05-30 18:53:24.285 [TestNG-test-E2E-Tests-1] INFO  c.n.tests.e2e.UiApiConsistencyTest — [Thread 159] Test teardown complete.
+2026-05-30 18:53:24.523 [main] INFO  org.testng.internal.Utils — [TestNG] Time taken by org.testng.reporters.jq.Main@1de0a46c: 171 ms
+2026-05-30 18:53:24.561 [main] INFO  org.testng.internal.Utils — [TestNG] Time taken by org.testng.reporters.FailedReporter@778d82e9: 37 ms
+2026-05-30 18:53:24.690 [main] INFO  org.testng.internal.Utils — [TestNG] Time taken by org.testng.reporters.XMLReporter@68e7c8c3: 129 ms
+2026-05-30 18:53:24.713 [main] INFO  org.testng.internal.Utils — [TestNG] Time taken by org.testng.reporters.EmailableReporter2@6778aea6: 23 ms
+2026-05-30 18:53:24.808 [main] INFO  org.testng.internal.Utils — [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@332820f4: 95 ms
+2026-05-30 18:53:24.809 [main] INFO  org.testng.internal.Utils — [TestNG] Time taken by org.testng.internal.ExitCodeListener@7173ae5b: 0 ms

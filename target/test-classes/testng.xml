@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!--
+  Notes App Capstone — TestNG Suite
+  parallel="methods"  → each @Test method runs in its own thread
+  thread-count="3"    → max 3 concurrent tests (tune to machine / grid capacity)
+-->
+<suite name="NotesApp-CapstoneAutomation"
+       parallel="methods"
+       thread-count="3"
+       verbose="2">
+
+    <!-- ═══════════════════════════════════════════
+         UI Tests
+    ═══════════════════════════════════════════ -->
+    <test name="UI-Tests" preserve-order="true">
+        <classes>
+            <class name="com.notes.tests.ui.LoginTest"/>
+            <class name="com.notes.tests.ui.CreateNoteTest"/>
+        </classes>
+    </test>
+
+    <!-- ═══════════════════════════════════════════
+         API Tests  (no browser; pure RestAssured)
+    ═══════════════════════════════════════════ -->
+    <test name="API-Tests" preserve-order="true">
+        <classes>
+            <class name="com.notes.tests.api.NotesApiTest"/>
+        </classes>
+    </test>
+
+    <!-- ═══════════════════════════════════════════
+         Hybrid E2E Tests
+    ═══════════════════════════════════════════ -->
+    <test name="E2E-Tests" preserve-order="true">
+        <classes>
+            <class name="com.notes.tests.e2e.UiApiConsistencyTest"/>
+            <class name="com.notes.tests.e2e.DeletedNoteDisappearsTest"/>
+        </classes>
+    </test>
+
+</suite>

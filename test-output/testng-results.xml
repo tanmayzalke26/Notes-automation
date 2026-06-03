@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="6" ignored="6" total="24" passed="9" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-30T18:45:51 IST" name="NotesApp-CapstoneAutomation" finished-at="2026-05-30T18:53:24 IST" duration-ms="453154">
+    <groups>
+    </groups>
+    <test started-at="2026-05-30T18:45:51 IST" name="UI-Tests" finished-at="2026-05-30T18:50:13 IST" duration-ms="262620">
+      <class name="com.notes.tests.ui.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.notes.tests.ui.LoginTest@1c9f0a20]" started-at="2026-05-30T18:45:51 IST" name="setUp" finished-at="2026-05-30T18:45:58 IST" duration-ms="7391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.notes.tests.ui.LoginTest@1c9f0a20]" started-at="2026-05-30T18:45:51 IST" name="setUp" finished-at="2026-05-30T18:45:58 IST" duration-ms="7388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.notes.tests.ui.LoginTest@1c9f0a20]" started-at="2026-05-30T18:45:51 IST" name="setUp" finished-at="2026-05-30T18:45:58 IST" duration-ms="7137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLoginNavigatesToDashboard()[pri:0, instance:com.notes.tests.ui.LoginTest@1c9f0a20]" started-at="2026-05-30T18:45:59 IST" name="validLoginNavigatesToDashboard" description="TC-UI-01: Valid login navigates to notes dashboard" finished-at="2026-05-30T18:46:58 IST" duration-ms="58959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginNavigatesToDashboard -->
+        <test-method signature="emptyFormShowsValidationError()[pri:0, instance:com.notes.tests.ui.LoginTest@1c9f0a20]" started-at="2026-05-30T18:45:59 IST" name="emptyFormShowsValidationError" description="TC-UI-NEG-02: Empty form submission shows validation error" finished-at="2026-05-30T18:46:19 IST" duration-ms="19970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyFormShowsValidationError -->
+        <test-method signature="invalidCredentialsShowError()[pri:0, instance:com.notes.tests.ui.LoginTest@1c9f0a20]" started-at="2026-05-30T18:45:59 IST" name="invalidCredentialsShowError" description="TC-UI-NEG-01: Invalid credentials show error message" finished-at="2026-05-30T18:46:09 IST" duration-ms="10378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCredentialsShowError -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.notes.tests.ui.LoginTest@1c9f0a20]" started-at="2026-05-30T18:46:09 IST" name="tearDown" finished-at="2026-05-30T18:46:11 IST" duration-ms="1635" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidCredentialsShowError status=SUCCESS method=LoginTest.invalidCredentialsShowError()[pri:0, instance:com.notes.tests.ui.LoginTest@1c9f0a20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.notes.tests.ui.LoginTest@1c9f0a20]" started-at="2026-05-30T18:46:19 IST" name="tearDown" finished-at="2026-05-30T18:46:27 IST" duration-ms="8666" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=emptyFormShowsValidationError status=SUCCESS method=LoginTest.emptyFormShowsValidationError()[pri:0, instance:com.notes.tests.ui.LoginTest@1c9f0a20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.notes.tests.ui.LoginTest@1c9f0a20]" started-at="2026-05-30T18:46:58 IST" name="tearDown" finished-at="2026-05-30T18:47:04 IST" duration-ms="5911" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLoginNavigatesToDashboard status=SUCCESS method=LoginTest.validLoginNavigatesToDashboard()[pri:0, instance:com.notes.tests.ui.LoginTest@1c9f0a20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.notes.tests.ui.LoginTest -->
+      <class name="com.notes.tests.ui.CreateNoteTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.notes.tests.ui.CreateNoteTest@3faf2e7d]" started-at="2026-05-30T18:46:11 IST" name="setUp" finished-at="2026-05-30T18:46:16 IST" duration-ms="5376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="createNoteAppearsInList()[pri:0, instance:com.notes.tests.ui.CreateNoteTest@3faf2e7d]" started-at="2026-05-30T18:46:16 IST" name="createNoteAppearsInList" description="TC-UI-02: Create a note via UI and verify it appears in the list" finished-at="2026-05-30T18:47:37 IST" duration-ms="81324" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.cssSelector: a[href='/notes/app/notes/add'], button[data-testid='add-note-button'], a[data-testid='add-note-button'] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:1754}, goog:processID: 22260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:1754/devtool..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7d792beeb78aebdef6f226182d873b2e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: a[href='/notes/app/notes/add'], button[data-testid='add-note-button'], a[data-testid='add-note-button'] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:1754}, goog:processID: 22260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:1754/devtool..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7d792beeb78aebdef6f226182d873b2e
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.notes.base.BasePage.find(BasePage.java:49)
+at com.notes.base.BasePage.jsClick(BasePage.java:73)
+at com.notes.pages.NotesPage.clickAddNote(NotesPage.java:65)
+at com.notes.tests.ui.CreateNoteTest.createNoteAppearsInList(CreateNoteTest.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNoteAppearsInList -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.notes.tests.ui.CreateNoteTest@3faf2e7d]" started-at="2026-05-30T18:46:28 IST" name="setUp" finished-at="2026-05-30T18:46:33 IST" duration-ms="5984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="createNoteInEachCategory()[pri:0, instance:com.notes.tests.ui.CreateNoteTest@3faf2e7d]" started-at="2026-05-30T18:46:34 IST" name="createNoteInEachCategory" description="TC-UI-03: Create notes in all three categories" finished-at="2026-05-30T18:47:42 IST" duration-ms="68422" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.cssSelector: a[href='/notes/app/notes/add'], button[data-testid='add-note-button'], a[data-testid='add-note-button'] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:12783}, goog:processID: 16760, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:12783/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a34b457b00a5497b6e9cc93b22fe096]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: a[href='/notes/app/notes/add'], button[data-testid='add-note-button'], a[data-testid='add-note-button'] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:12783}, goog:processID: 16760, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:12783/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a34b457b00a5497b6e9cc93b22fe096
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.notes.base.BasePage.find(BasePage.java:49)
+at com.notes.base.BasePage.jsClick(BasePage.java:73)
+at com.notes.pages.NotesPage.clickAddNote(NotesPage.java:65)
+at com.notes.tests.ui.CreateNoteTest.createNoteInEachCategory(CreateNoteTest.java:58)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNoteInEachCategory -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.notes.tests.ui.CreateNoteTest@3faf2e7d]" started-at="2026-05-30T18:47:37 IST" name="tearDown" finished-at="2026-05-30T18:47:38 IST" duration-ms="518" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createNoteAppearsInList status=SKIP method=CreateNoteTest.createNoteAppearsInList()[pri:0, instance:com.notes.tests.ui.CreateNoteTest@3faf2e7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.notes.tests.ui.CreateNoteTest@3faf2e7d]" started-at="2026-05-30T18:47:38 IST" name="setUp" finished-at="2026-05-30T18:47:40 IST" duration-ms="1805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="createNoteAppearsInList()[pri:0, instance:com.notes.tests.ui.CreateNoteTest@3faf2e7d]" started-at="2026-05-30T18:47:40 IST" name="createNoteAppearsInList" description="TC-UI-02: Create a note via UI and verify it appears in the list" finished-at="2026-05-30T18:48:47 IST" duration-ms="66729" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.cssSelector: a[href='/notes/app/notes/add'], button[data-testid='add-note-button'], a[data-testid='add-note-button'] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61472}, goog:processID: 5060, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61472/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 239ca72f11546106d1511e28fb4ea994]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: a[href='/notes/app/notes/add'], button[data-testid='add-note-button'], a[data-testid='add-note-button'] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61472}, goog:processID: 5060, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61472/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 239ca72f11546106d1511e28fb4ea994
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.notes.base.BasePage.find(BasePage.java:49)
+at com.notes.base.BasePage.jsClick(BasePage.java:73)
+at com.notes.pages.NotesPage.clickAddNote(NotesPage.java:65)
+at com.notes.tests.ui.CreateNoteTest.createNoteAppearsInList(CreateNoteTest.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNoteAppearsInList -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.notes.tests.ui.CreateNoteTest@3faf2e7d]" started-at="2026-05-30T18:47:42 IST" name="tearDown" finished-at="2026-05-30T18:47:43 IST" duration-ms="644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createNoteInEachCategory status=SKIP method=CreateNoteTest.createNoteInEachCategory()[pri:0, instance:com.notes.tests.ui.CreateNoteTest@3faf2e7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.notes.tests.ui.CreateNoteTest@3faf2e7d]" started-at="2026-05-30T18:47:43 IST" name="setUp" finished-at="2026-05-30T18:47:44 IST" duration-ms="1573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="createNoteInEachCategory()[pri:0, instance:com.notes.tests.ui.CreateNoteTest@3faf2e7d]" started-at="2026-05-30T18:47:44 IST" name="createNoteInEachCategory" description="TC-UI-03: Create notes in all three categories" finished-at="2026-05-30T18:48:53 IST" duration-ms="68560" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.cssSelector: a[href='/notes/app/notes/add'], button[data-testid='add-note-button'], a[data-testid='add-note-button'] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53626}, goog:processID: 19168, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53626/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 89c57840e7a97bf0cb3c4bf788f0ca2c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: a[href='/notes/app/notes/add'], button[data-testid='add-note-button'], a[data-testid='add-note-button'] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53626}, goog:processID: 19168, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53626/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 89c57840e7a97bf0cb3c4bf788f0ca2c
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.notes.base.BasePage.find(BasePage.java:49)
+at com.notes.base.BasePage.jsClick(BasePage.java:73)
+at com.notes.pages.NotesPage.clickAddNote(NotesPage.java:65)
+at com.notes.tests.ui.CreateNoteTest.createNoteInEachCategory(CreateNoteTest.java:58)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNoteInEachCategory -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.notes.tests.ui.CreateNoteTest@3faf2e7d]" started-at="2026-05-30T18:48:47 IST" name="tearDown" finished-at="2026-05-30T18:48:48 IST" duration-ms="944" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createNoteAppearsInList status=SKIP method=CreateNoteTest.createNoteAppearsInList()[pri:0, instance:com.notes.tests.ui.CreateNoteTest@3faf2e7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.notes.tests.ui.CreateNoteTest@3faf2e7d]" started-at="2026-05-30T18:48:48 IST" name="setUp" finished-at="2026-05-30T18:48:49 IST" duration-ms="1455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createNoteAppearsInList()[pri:0, instance:com.notes.tests.ui.CreateNoteTest@3faf2e7d]" started-at="2026-05-30T18:48:49 IST" name="createNoteAppearsInList" description="TC-UI-02: Create a note via UI and verify it appears in the list" finished-at="2026-05-30T18:49:56 IST" duration-ms="67024" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.cssSelector: a[href='/notes/app/notes/add'], button[data-testid='add-note-button'], a[data-testid='add-note-button'] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55759}, goog:processID: 19652, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55759/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a4f6eb2e82d553046d13d6dc6d96c22]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: a[href='/notes/app/notes/add'], button[data-testid='add-note-button'], a[data-testid='add-note-button'] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55759}, goog:processID: 19652, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55759/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a4f6eb2e82d553046d13d6dc6d96c22
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.notes.base.BasePage.find(BasePage.java:49)
+at com.notes.base.BasePage.jsClick(BasePage.java:73)
+at com.notes.pages.NotesPage.clickAddNote(NotesPage.java:65)
+at com.notes.tests.ui.CreateNoteTest.createNoteAppearsInList(CreateNoteTest.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNoteAppearsInList -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.notes.tests.ui.CreateNoteTest@3faf2e7d]" started-at="2026-05-30T18:48:53 IST" name="tearDown" finished-at="2026-05-30T18:48:53 IST" duration-ms="516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createNoteInEachCategory status=SKIP method=CreateNoteTest.createNoteInEachCategory()[pri:0, instance:com.notes.tests.ui.CreateNoteTest@3faf2e7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.notes.tests.ui.CreateNoteTest@3faf2e7d]" started-at="2026-05-30T18:48:53 IST" name="setUp" finished-at="2026-05-30T18:48:55 IST" duration-ms="1517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createNoteInEachCategory()[pri:0, instance:com.notes.tests.ui.CreateNoteTest@3faf2e7d]" started-at="2026-05-30T18:48:55 IST" name="createNoteInEachCategory" description="TC-UI-03: Create notes in all three categories" finished-at="2026-05-30T18:50:12 IST" duration-ms="77577" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.cssSelector: a[href='/notes/app/notes/add'], button[data-testid='add-note-button'], a[data-testid='add-note-button'] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:27236}, goog:processID: 14656, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:27236/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d20cfbbb009c9189a8f083303112eaf]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: a[href='/notes/app/notes/add'], button[data-testid='add-note-button'], a[data-testid='add-note-button'] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:27236}, goog:processID: 14656, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:27236/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d20cfbbb009c9189a8f083303112eaf
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.notes.base.BasePage.find(BasePage.java:49)
+at com.notes.base.BasePage.jsClick(BasePage.java:73)
+at com.notes.pages.NotesPage.clickAddNote(NotesPage.java:65)
+at com.notes.tests.ui.CreateNoteTest.createNoteInEachCategory(CreateNoteTest.java:58)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNoteInEachCategory -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.notes.tests.ui.CreateNoteTest@3faf2e7d]" started-at="2026-05-30T18:49:56 IST" name="tearDown" finished-at="2026-05-30T18:49:57 IST" duration-ms="972" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createNoteAppearsInList status=FAILURE method=CreateNoteTest.createNoteAppearsInList()[pri:0, instance:com.notes.tests.ui.CreateNoteTest@3faf2e7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.notes.tests.ui.CreateNoteTest@3faf2e7d]" started-at="2026-05-30T18:50:12 IST" name="tearDown" finished-at="2026-05-30T18:50:13 IST" duration-ms="764" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createNoteInEachCategory status=FAILURE method=CreateNoteTest.createNoteInEachCategory()[pri:0, instance:com.notes.tests.ui.CreateNoteTest@3faf2e7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.notes.tests.ui.CreateNoteTest -->
+    </test> <!-- UI-Tests -->
+    <test started-at="2026-05-30T18:50:13 IST" name="API-Tests" finished-at="2026-05-30T18:50:20 IST" duration-ms="7167">
+      <class name="com.notes.tests.api.NotesApiTest">
+        <test-method is-config="true" signature="authenticate()[pri:0, instance:com.notes.tests.api.NotesApiTest@b174a73]" started-at="2026-05-30T18:50:13 IST" name="authenticate" finished-at="2026-05-30T18:50:18 IST" duration-ms="5132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authenticate -->
+        <test-method signature="getNotesReturns200WithinThreshold()[pri:1, instance:com.notes.tests.api.NotesApiTest@b174a73]" started-at="2026-05-30T18:50:18 IST" name="getNotesReturns200WithinThreshold" description="TC-API-01: GET /notes returns 200 and a list within 2 seconds" finished-at="2026-05-30T18:50:19 IST" duration-ms="883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNotesReturns200WithinThreshold -->
+        <test-method signature="getNotesWithoutTokenReturns401()[pri:4, instance:com.notes.tests.api.NotesApiTest@b174a73]" started-at="2026-05-30T18:50:18 IST" name="getNotesWithoutTokenReturns401" description="TC-API-NEG-01: GET /notes without token returns 401" finished-at="2026-05-30T18:50:20 IST" duration-ms="1095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNotesWithoutTokenReturns401 -->
+        <test-method signature="createNoteViaApiReturns200()[pri:2, instance:com.notes.tests.api.NotesApiTest@b174a73]" started-at="2026-05-30T18:50:18 IST" name="createNoteViaApiReturns200" description="TC-API-02: POST /notes creates a note successfully" finished-at="2026-05-30T18:50:20 IST" duration-ms="1148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNoteViaApiReturns200 -->
+        <test-method signature="deleteNonExistentNoteReturns404()[pri:5, instance:com.notes.tests.api.NotesApiTest@b174a73]" started-at="2026-05-30T18:50:19 IST" name="deleteNonExistentNoteReturns404" description="TC-API-NEG-02: DELETE non-existent note returns 404" finished-at="2026-05-30T18:50:20 IST" duration-ms="787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteNonExistentNoteReturns404 -->
+        <test-method signature="deleteNoteViaApiReturns200()[pri:3, instance:com.notes.tests.api.NotesApiTest@b174a73]" started-at="2026-05-30T18:50:20 IST" name="deleteNoteViaApiReturns200" description="TC-API-03: DELETE /notes/{id} removes the note (FR-06)" finished-at="2026-05-30T18:50:20 IST" depends-on-methods="com.notes.tests.api.NotesApiTest.createNoteViaApiReturns200" duration-ms="844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteNoteViaApiReturns200 -->
+      </class> <!-- com.notes.tests.api.NotesApiTest -->
+    </test> <!-- API-Tests -->
+    <test started-at="2026-05-30T18:50:21 IST" name="E2E-Tests" finished-at="2026-05-30T18:53:24 IST" duration-ms="183279">
+      <class name="com.notes.tests.e2e.DeletedNoteDisappearsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.notes.tests.e2e.DeletedNoteDisappearsTest@554cd74a]" started-at="2026-05-30T18:50:21 IST" name="setUp" finished-at="2026-05-30T18:50:23 IST" duration-ms="2618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="deletedNoteDisappearsFromUI()[pri:0, instance:com.notes.tests.e2e.DeletedNoteDisappearsTest@554cd74a]" started-at="2026-05-30T18:50:23 IST" name="deletedNoteDisappearsFromUI" description="TC-E2E-02: Note deleted via API disappears from UI (FR-06 + FR-07)" finished-at="2026-05-30T18:51:56 IST" duration-ms="93292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletedNoteDisappearsFromUI -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.notes.tests.e2e.DeletedNoteDisappearsTest@554cd74a]" started-at="2026-05-30T18:51:56 IST" name="tearDown" finished-at="2026-05-30T18:51:57 IST" duration-ms="820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deletedNoteDisappearsFromUI status=SUCCESS method=DeletedNoteDisappearsTest.deletedNoteDisappearsFromUI()[pri:0, instance:com.notes.tests.e2e.DeletedNoteDisappearsTest@554cd74a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.notes.tests.e2e.DeletedNoteDisappearsTest -->
+      <class name="com.notes.tests.e2e.UiApiConsistencyTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.notes.tests.e2e.UiApiConsistencyTest@7d5508e0]" started-at="2026-05-30T18:50:21 IST" name="setUp" finished-at="2026-05-30T18:50:23 IST" duration-ms="2805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="tc01_uiCreatedNoteMatchesApiResponse()[pri:0, instance:com.notes.tests.e2e.UiApiConsistencyTest@7d5508e0]" started-at="2026-05-30T18:50:23 IST" name="tc01_uiCreatedNoteMatchesApiResponse" description="TC-01: UI-created note matches API response (Category, Title, Description)" finished-at="2026-05-30T18:51:25 IST" duration-ms="61538" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.cssSelector: a[href='/notes/app/notes/add'], button[data-testid='add-note-button'], a[data-testid='add-note-button'] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:7239}, goog:processID: 20444, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:7239/devtool..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 03f402532f1f52868902a9299b9ed8ca]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: a[href='/notes/app/notes/add'], button[data-testid='add-note-button'], a[data-testid='add-note-button'] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:7239}, goog:processID: 20444, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:7239/devtool..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 03f402532f1f52868902a9299b9ed8ca
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.notes.base.BasePage.find(BasePage.java:49)
+at com.notes.base.BasePage.jsClick(BasePage.java:73)
+at com.notes.pages.NotesPage.clickAddNote(NotesPage.java:65)
+at com.notes.tests.e2e.UiApiConsistencyTest.lambda$1(UiApiConsistencyTest.java:80)
+at io.qameta.allure.Allure.lambda$step$0(Allure.java:113)
+at io.qameta.allure.Allure.lambda$step$1(Allure.java:127)
+at io.qameta.allure.Allure.step(Allure.java:181)
+at io.qameta.allure.Allure.step(Allure.java:125)
+at io.qameta.allure.Allure.step(Allure.java:112)
+at com.notes.tests.e2e.UiApiConsistencyTest.tc01_uiCreatedNoteMatchesApiResponse(UiApiConsistencyTest.java:78)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_uiCreatedNoteMatchesApiResponse -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.notes.tests.e2e.UiApiConsistencyTest@7d5508e0]" started-at="2026-05-30T18:51:25 IST" name="tearDown" finished-at="2026-05-30T18:51:26 IST" duration-ms="1253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc01_uiCreatedNoteMatchesApiResponse status=SKIP method=UiApiConsistencyTest.tc01_uiCreatedNoteMatchesApiResponse()[pri:0, instance:com.notes.tests.e2e.UiApiConsistencyTest@7d5508e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.notes.tests.e2e.UiApiConsistencyTest@7d5508e0]" started-at="2026-05-30T18:51:26 IST" name="setUp" finished-at="2026-05-30T18:51:28 IST" duration-ms="1504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="tc01_uiCreatedNoteMatchesApiResponse()[pri:0, instance:com.notes.tests.e2e.UiApiConsistencyTest@7d5508e0]" started-at="2026-05-30T18:51:28 IST" name="tc01_uiCreatedNoteMatchesApiResponse" description="TC-01: UI-created note matches API response (Category, Title, Description)" finished-at="2026-05-30T18:52:24 IST" duration-ms="56271" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.cssSelector: a[href='/notes/app/notes/add'], button[data-testid='add-note-button'], a[data-testid='add-note-button'] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35352}, goog:processID: 22436, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:35352/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8ff2fe50df81ea152f07d985a93e7aea]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: a[href='/notes/app/notes/add'], button[data-testid='add-note-button'], a[data-testid='add-note-button'] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35352}, goog:processID: 22436, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:35352/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8ff2fe50df81ea152f07d985a93e7aea
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.notes.base.BasePage.find(BasePage.java:49)
+at com.notes.base.BasePage.jsClick(BasePage.java:73)
+at com.notes.pages.NotesPage.clickAddNote(NotesPage.java:65)
+at com.notes.tests.e2e.UiApiConsistencyTest.lambda$1(UiApiConsistencyTest.java:80)
+at io.qameta.allure.Allure.lambda$step$0(Allure.java:113)
+at io.qameta.allure.Allure.lambda$step$1(Allure.java:127)
+at io.qameta.allure.Allure.step(Allure.java:181)
+at io.qameta.allure.Allure.step(Allure.java:125)
+at io.qameta.allure.Allure.step(Allure.java:112)
+at com.notes.tests.e2e.UiApiConsistencyTest.tc01_uiCreatedNoteMatchesApiResponse(UiApiConsistencyTest.java:78)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_uiCreatedNoteMatchesApiResponse -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.notes.tests.e2e.UiApiConsistencyTest@7d5508e0]" started-at="2026-05-30T18:52:24 IST" name="tearDown" finished-at="2026-05-30T18:52:24 IST" duration-ms="460" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc01_uiCreatedNoteMatchesApiResponse status=SKIP method=UiApiConsistencyTest.tc01_uiCreatedNoteMatchesApiResponse()[pri:0, instance:com.notes.tests.e2e.UiApiConsistencyTest@7d5508e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.notes.tests.e2e.UiApiConsistencyTest@7d5508e0]" started-at="2026-05-30T18:52:24 IST" name="setUp" finished-at="2026-05-30T18:52:26 IST" duration-ms="1412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc01_uiCreatedNoteMatchesApiResponse()[pri:0, instance:com.notes.tests.e2e.UiApiConsistencyTest@7d5508e0]" started-at="2026-05-30T18:52:26 IST" name="tc01_uiCreatedNoteMatchesApiResponse" description="TC-01: UI-created note matches API response (Category, Title, Description)" finished-at="2026-05-30T18:53:23 IST" duration-ms="57077" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.cssSelector: a[href='/notes/app/notes/add'], button[data-testid='add-note-button'], a[data-testid='add-note-button'] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45163}, goog:processID: 27532, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:45163/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2200a2509886a278eb9db4d82d273eb7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: a[href='/notes/app/notes/add'], button[data-testid='add-note-button'], a[data-testid='add-note-button'] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45163}, goog:processID: 27532, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:45163/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2200a2509886a278eb9db4d82d273eb7
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.notes.base.BasePage.find(BasePage.java:49)
+at com.notes.base.BasePage.jsClick(BasePage.java:73)
+at com.notes.pages.NotesPage.clickAddNote(NotesPage.java:65)
+at com.notes.tests.e2e.UiApiConsistencyTest.lambda$1(UiApiConsistencyTest.java:80)
+at io.qameta.allure.Allure.lambda$step$0(Allure.java:113)
+at io.qameta.allure.Allure.lambda$step$1(Allure.java:127)
+at io.qameta.allure.Allure.step(Allure.java:181)
+at io.qameta.allure.Allure.step(Allure.java:125)
+at io.qameta.allure.Allure.step(Allure.java:112)
+at com.notes.tests.e2e.UiApiConsistencyTest.tc01_uiCreatedNoteMatchesApiResponse(UiApiConsistencyTest.java:78)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_uiCreatedNoteMatchesApiResponse -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.notes.tests.e2e.UiApiConsistencyTest@7d5508e0]" started-at="2026-05-30T18:53:23 IST" name="tearDown" finished-at="2026-05-30T18:53:24 IST" duration-ms="886" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc01_uiCreatedNoteMatchesApiResponse status=FAILURE method=UiApiConsistencyTest.tc01_uiCreatedNoteMatchesApiResponse()[pri:0, instance:com.notes.tests.e2e.UiApiConsistencyTest@7d5508e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.notes.tests.e2e.UiApiConsistencyTest -->
+    </test> <!-- E2E-Tests -->
+  </suite> <!-- NotesApp-CapstoneAutomation -->
+</testng-results>
