@@ -67,7 +67,7 @@ pipeline {
                         try {
                             findFiles(glob: "${env.SUREFIRE_DIR}/**/*.xml").each { f ->
                                 try {
-                                    def xml = readFile(f.path)
+                                    def xml      = readFile(f.path)
                                     def tests    = (xml =~ /tests="(\d+)"/)
                                     def failures = (xml =~ /failures="(\d+)"/)
                                     def errors   = (xml =~ /errors="(\d+)"/)
@@ -98,6 +98,8 @@ pipeline {
 
                         currentBuild.description = "Passed:${passed} Failed:${totalFailures} Total:${totalTests}"
                     }
+
+                    junit testResults: "${env.SUREFIRE_DIR}/**/*.xml", allowEmptyResults: true
                 }
             }
         }
@@ -143,7 +145,6 @@ pipeline {
 
     post {
         always {
-            junit testResults: "${env.SUREFIRE_DIR}/**/*.xml", allowEmptyResults: true
             cleanWs()
         }
         success  { echo "BUILD STABLE — All tests passed." }
