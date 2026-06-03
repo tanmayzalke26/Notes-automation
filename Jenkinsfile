@@ -140,13 +140,15 @@ pipeline {
                     ])
                 }
             }
+            post {
+                always {
+                    cleanWs()
+                }
+            }
         }
     }
 
     post {
-        always {
-            cleanWs()
-        }
         success  { echo "BUILD STABLE — All tests passed." }
         unstable { echo "BUILD UNSTABLE — Some tests failed. Check Allure report." }
         failure  { echo "BUILD FAILED — Pipeline error. Check console log." }
