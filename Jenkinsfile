@@ -106,7 +106,7 @@ pipeline {
 
         stage('Collect Artefacts') {
             when {
-                always true
+                expression { true }
             }
             steps {
                 catchError(buildResult: 'UNSTABLE', stageResult: 'UNSTABLE') {
@@ -120,7 +120,7 @@ pipeline {
 
         stage('Publish Allure Report') {
             when {
-                always true
+                expression { true }
             }
             steps {
                 catchError(buildResult: 'UNSTABLE', stageResult: 'UNSTABLE') {
@@ -135,7 +135,7 @@ pipeline {
 
         stage('Publish HTML Report') {
             when {
-                always true
+                expression { true }
             }
             steps {
                 catchError(buildResult: 'UNSTABLE', stageResult: 'UNSTABLE') {
@@ -154,7 +154,6 @@ pipeline {
 
     post {
         always {
-            // Clean workspace safely after all steps and reports are finished
             cleanWs() 
         }
         success  { echo "BUILD STABLE — All tests passed." }
