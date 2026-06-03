@@ -33,11 +33,14 @@ public class NotesPage extends BasePage {
         "a[href='/notes/app/notes/add'], button[data-testid='add-note-button'], " +
         "button[aria-label='Add Note']"
     );
-    private final By addNoteButton = By.cssSelector(
-        "a[href='/notes/app/notes/add'], " +
-        "button[data-testid='add-note-button'], " +
-        "a[data-testid='add-note-button']"
-    );
+//    private final By addNoteButton = By.cssSelector(
+//        "a[href='/notes/app/notes/add'], " +
+//        "button[data-testid='add-note-button'], " +
+//        "a[data-testid='add-note-button']"
+//    );
+    
+    private final By addNoteButton = By.cssSelector("button[data-testid='add-new-note']");
+    
     private final By noteCards     = By.cssSelector(".card");
     private final By noteCardTitle = By.cssSelector(".card-title");
     private final By logoutButton  = By.xpath(
@@ -61,12 +64,18 @@ public class NotesPage extends BasePage {
 
     // ── Actions ───────────────────────────────────────────────────────
 
+//    public NoteFormPage clickAddNote() {
+//        jsClick(addNoteButton);
+//        log.info("Clicked 'Add Note'.");
+//        return new NoteFormPage();
+//    }
+
     public NoteFormPage clickAddNote() {
         jsClick(addNoteButton);
-        log.info("Clicked 'Add Note'.");
+        log.info("Clicked Add Note button.");
         return new NoteFormPage();
     }
-
+    
     public LoginPage logout() {
         jsClick(logoutButton);
         waitForUrlContains("/login");
