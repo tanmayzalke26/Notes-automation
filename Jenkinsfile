@@ -105,6 +105,9 @@ pipeline {
         }
 
         stage('Collect Artefacts') {
+            when {
+                always true
+            }
             steps {
                 catchError(buildResult: 'UNSTABLE', stageResult: 'UNSTABLE') {
                     archiveArtifacts artifacts: 'target\\screenshots\\**\\*.png', allowEmptyArchive: true
@@ -116,6 +119,9 @@ pipeline {
         }
 
         stage('Publish Allure Report') {
+            when {
+                always true
+            }
             steps {
                 catchError(buildResult: 'UNSTABLE', stageResult: 'UNSTABLE') {
                     allure([
@@ -128,6 +134,9 @@ pipeline {
         }
 
         stage('Publish HTML Report') {
+            when {
+                always true
+            }
             steps {
                 catchError(buildResult: 'UNSTABLE', stageResult: 'UNSTABLE') {
                     publishHTML(target: [
@@ -140,15 +149,14 @@ pipeline {
                     ])
                 }
             }
-            post {
-                always {
-                    cleanWs()
-                }
-            }
         }
     }
 
     post {
+        always {
+            // Clean workspace safely after all steps and reports are finished
+            cleanWs() 
+        }
         success  { echo "BUILD STABLE — All tests passed." }
         unstable { echo "BUILD UNSTABLE — Some tests failed. Check Allure report." }
         failure  { echo "BUILD FAILED — Pipeline error. Check console log." }
